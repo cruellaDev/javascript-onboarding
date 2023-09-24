@@ -1,9 +1,9 @@
 function problem3(number) {
-  let answer = 0;
-  for (let i = 1; i <= number; i++) {
-    answer += getCountOf369(i);
-  }
-  return answer;
+    let answer = 0;
+    for (let i = 1; i <= number; i++) {
+        answer += getCountOf369(i);
+    }
+    return answer;
 }
 
 function getCountOf369(number) {
