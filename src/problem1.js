@@ -19,7 +19,7 @@ function getMaxOfMultiplyOrSumOfDigits(number) {
     let temp = number ?? 0;
     while (temp > 0) {
         div = Math.floor(temp / 10);
-        mod = temp - div * 10;
+        mod = temp % 10;
         sum += mod;
         multiply *= mod;
         temp = div;
